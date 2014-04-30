@@ -3,16 +3,16 @@
     "version": "1.0",
     "manifest_version": 2,
     "description": "Use Facebook Chat and avoid distraction from the Facebook newsfeed.",
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
     "background": {
-        "page": "bg.html"
+        "page": "html/bg.html"
+    },
+    "icons": {
+        "48": "img/icon.png"
     },
     "content_scripts": [
 		{ 
 			"matches": ["https://www.facebook.com/*"],
-			"js": ["contentscript.js"]
+			"js": ["js/contentscript.js"]
 		}
     ]
 }
