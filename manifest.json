@@ -12,7 +12,8 @@
     "content_scripts": [
 		{ 
 			"matches": ["https://www.facebook.com/*"],
-			"js": ["js/contentscript.js"]
+			"js": ["js/contentscript.js"],
+            "css": ["css/hideelements.css"]
 		}
     ]
 }

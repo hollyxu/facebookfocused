@@ -41,5 +41,4 @@ contentPane.addEventListener('DOMNodeRemovedFromDocument',
 
 // Initial pageload
 pageLoaded();
-
-hideElements();
+//hideElements();
