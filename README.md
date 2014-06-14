@@ -2,7 +2,7 @@
 
 A Google Chrome extension to allow you to use Facebook chat while avoiding distractions from the Facebook news feed.
 
-## What *exactly* does this do?
+## What exactly does this do?
 
 * Redirect all visits to Facebook to facebook.com/messages
 * Hide the searchbar and all notifications 
