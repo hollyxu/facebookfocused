@@ -11,7 +11,11 @@ if (curURL) {
 }
 
 // Hide annoying elements (ID)... like the Facebook navigation bar
-var divsToHide = ['pageHead', 'pagelet_ticker'];
+var divsToHide = [
+    'pageHead',         // Header
+    'pagelet_ticker',   // Sidebar news
+    'pagelet_dock'      // Notifications that pop-up
+];
 
 divsToHide.forEach(function(elem, index, arr) {
     var divToHide = elem;
