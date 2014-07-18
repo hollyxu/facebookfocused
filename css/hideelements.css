@@ -1,0 +1,10 @@
+/* List the elements you want hidden, and they will be gone! */
+
+/* The page header with all the red notifications */ 
+#pageHead,
+/* The news ticker on the right, above the chat */ 
+.fbChatSidebar #pagelet_ticker,
+/* The popup that comes up to notify you of likes & stuff */ 
+#pagelet_dock > div > ul {
+    display: none;
+}
