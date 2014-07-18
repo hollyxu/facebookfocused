@@ -13,24 +13,6 @@ function pageLoaded() {
     }
 }
 
-function hideElements() {
-    var divsToHide = [
-        'pageHead',         // Header
-        'pagelet_ticker',   // Sidebar news
-        'pagelet_dock'      // Notifications that pop-up
-    ];
-
-    divsToHide.forEach(function(elem, index, arr) {
-        var divToHide = elem;
-        var distractingDiv = document.getElementById(divToHide);
-        if (distractingDiv) {
-            distractingDiv.style.display = 'none';
-            distractingDiv.style.height = 0;
-            distractingDiv.style.visibility = 'none';
-        }
-    });
-}
-
 // -------------------------------------------------- 
 // Setup on pageload
 
@@ -41,4 +23,3 @@ contentPane.addEventListener('DOMNodeRemovedFromDocument',
 
 // Initial pageload
 pageLoaded();
-//hideElements();
