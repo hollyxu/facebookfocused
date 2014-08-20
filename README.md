@@ -1,12 +1,12 @@
-# Facebook for Chat Only
+# Facebook Focused
 
-A Google Chrome extension to allow you to use Facebook chat while avoiding distractions from the Facebook news feed.
+A Google Chrome extension that empowers you to use Facebook for chat and work purposes without having to worry about being distracted by the Facebook news feed, timeline, or notifications.
 
 ## What exactly does this do?
 
-* Redirect all visits to Facebook to facebook.com/messages
-* Hide the searchbar and all notifications 
-* Remove the newsfeed ticker on the sidebar
+* Any visits to Facebook will be directed to the Messages page
+* Distracting elements like notifications and news feed are hidden
+* Users can restore Facebook for a limited time to perform focused work
 
 ## Installation 
 
@@ -15,7 +15,7 @@ Read the installation guide at [Google Chrome Developer docs](https://developer.
 ## Usage
 
 1. Turn on the extension in Chrome.
-2. Use Facebook Chat without distraction. 
+2. Use Facebook Focused and work without distraction. 
 3. ???
 4. Profit!
 
